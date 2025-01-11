@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+  <p class="class-message">Good Morening</p>
+  <p class="class-message">Good Afternoon</p>
+  <button id="id-message">Chick Here</button>
+
+  <script>
+    // jQuery Script
+    $('p');
+    $('.class-name');
+    $('#id-name');
+    $(document).ready(function() {
+      $('#id-message').click(function() {
+        $('.class-message').text('Hello guys');
+      });
+    });
+  </script>
+
+</body>
+</html>
